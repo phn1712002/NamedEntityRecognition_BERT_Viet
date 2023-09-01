@@ -1,0 +1,17 @@
+# VENV
+Venv/
+
+# CHECKPOINT
+Checkpoint/logs/*
+Checkpoint/export/*
+Checkpoint/save/*
+
+# SAVE
+Dataset/train/*
+Dataset/dev/*
+Dataset/test/*
+Dataset/raw/*
+
+
+# WANDB
+wandb/*

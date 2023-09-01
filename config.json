@@ -1,0 +1,32 @@
+{
+    "config_model":{
+        "name": "NerBERT",
+        "max_len": 10,
+        "rate_drop": 0.3,
+        "decode": "UTF-8"
+    },
+    "config_train":{
+        "epochs": 1,
+        "batch_size_train": 8,
+        "batch_size_dev": 8,
+        "checkpoint": {
+            "monitor": "loss",
+            "mode": "auto",
+            "verbose": 1
+        }
+    },
+    "config_wandb":{
+        "using": false,
+        "api_key": "",
+        "project": "NamedEntityRecognition_BERT_Viet",
+        "name": "",
+        "sync_tensorboard": true
+    },
+    "config_opt":{
+        "learning_rate": 0.001
+    },
+    "config_other":{
+        "summary": true,
+        "warning": false
+    }
+}
