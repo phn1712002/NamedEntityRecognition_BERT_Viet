@@ -9,7 +9,7 @@ from Architecture.Pipeline import PipelineBERT
 from Dataset.Createdataset import DatasetNerBERT
 from Optimizers.OptimizersNerBERT import CustomOptimizers
 
-
+# Environment variable
 PATH_CONFIG = './config.json'
 PATH_DATASET = './Dataset/'
 PATH_SAVE = './Checkpoint/save/'
